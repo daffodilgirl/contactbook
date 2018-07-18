@@ -1,0 +1,37 @@
+body{
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+h3{
+    color: orange;
+}
+#update{
+    display: none;
+}
+table{
+    margin-left: 10%;
+    margin-right: 10%
+        width:70%;
+}
+table td{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+table tr :nth-child(even){
+    background-color: #ddd;
+}
+table td:hover{
+    background-color: blue;
+}
+input{
+    border: 1px solid blue;
+    width: 150px;
+    height:35px;
+}
+table td button{
+    width:100px;
+    height:70px;
+    background-color: beige;
+    color: aqua;
+}
